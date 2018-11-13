@@ -19,6 +19,10 @@ if (process.env.NODE_ENV === 'dev') {
 };
 process.env.URLDB = urlDB;
 
+// Google client id
+process.env.CLIENT_ID = process.env.CLIENT_ID || '355809411759-g7ahsf17nhhpqkb01lj2ol8g6h45qq88.apps.googleusercontent.com';
+
+
 
 //mongodb://localhost:27017/cafe
 // mongodb://<dbuser>:<dbpassword>@ds259463.mlab.com:59463/nodecafedb
